@@ -51,9 +51,9 @@ int main()
     vector<float> A={-1,5,8};
     vector<float> p2;
     float s=0;
-    for (int l=0;l<3;l++){
-        for (int k=0;k<3;k++){
-            s+= M[l][k]*A[k];
+    for (int a=0;a<3;a++){
+        for (int b=0;b<3;b++){
+            s+= M[a][b]*A[b];
         }
         p2.push_back(s);
         s=0;
